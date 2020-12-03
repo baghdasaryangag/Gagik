@@ -1,7 +1,11 @@
 package com.company;
 
 public class Main {
+
     public static void main(String[] args) {
+        System.out.println("Hello World");
+
+
         String a = "BAREV TIGRAN";
         System.out.println(a.length());
 
@@ -38,8 +42,5 @@ public class Main {
                 System.out.println("x");
             }
         }
-
     }
-
 }
-
