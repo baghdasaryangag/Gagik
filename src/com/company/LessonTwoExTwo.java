@@ -18,6 +18,6 @@ public class LessonTwoExTwo {
 
 
         }
-        System.out.println("" + sum);
+        System.out.println("1 + A + A 2 + A 3 + … + AN = " + sum);
     }
 }
