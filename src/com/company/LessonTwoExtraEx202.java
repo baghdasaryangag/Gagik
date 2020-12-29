@@ -3,7 +3,6 @@ package com.company;
 public class LessonTwoExtraEx202 {
     public static void main(String[] args) {
         int num = 665444;
-        int count = 0;
         int k = 0;
         int sum = 0;
         while (num > 1) {
