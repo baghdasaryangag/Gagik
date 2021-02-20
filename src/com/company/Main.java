@@ -40,14 +40,15 @@ public class Main {
         System.out.println(sumList);
         int max = sumList.get(0);
         for (int i = 0; i < sumList.size(); i++) {
-            if (sumList.get(i) > max ) {
+            if (sumList.get(i) > max) {
                 max = sumList.get(i);
 
             }
         }
-        System.out.println(max);
-
-
+        int firstElementIndex = sumList.indexOf(max);
+        for (int i = firstElementIndex; i < firstElementIndex + 5; i++) {
+            System.out.println(numbers.get(i));
+        }
 
     }
 }
