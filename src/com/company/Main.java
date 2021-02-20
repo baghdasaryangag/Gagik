@@ -21,9 +21,11 @@ public class Main {
         numbers.add(12);
         numbers.add(13);
         numbers.add(14);
+        int sum = 1;
         for (int i = 0; i < numbers.size(); i++) {
-            int sum =
+            sum = numbers.get(i) * sum;
         }
+        System.out.println(sum);
 
     }
 
